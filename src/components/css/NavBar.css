@@ -1,0 +1,33 @@
+.header{
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #c5c8cb; 
+    background-color: white;
+}
+.logoEmpresa{
+    width: 60px;
+
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    padding: 20px 20px;
+    color: #1d175c;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: #e12257;
+}
+.icons{
+    padding: 20px;
+    color: #1d175c; 
+    cursor: pointer;
+}
+.icons svg{
+    padding: 20px 0;
+    color: #1d175c; 
+}
+.icons svg:hover{
+    color: #e12257;
+}
