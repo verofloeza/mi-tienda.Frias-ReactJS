@@ -4,6 +4,7 @@ a{
     float: left;
     font-weight: 600;
     font-size: 24;
+    font-family:  'Montserrat', sans-serif;
 }
 a:hover{
     color: #e12257;

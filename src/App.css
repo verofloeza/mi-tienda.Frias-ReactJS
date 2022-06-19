@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 .cuerpo{
   background-color: #edebeb;
+  font-family:  'Montserrat', sans-serif;
 }
 
 .App {

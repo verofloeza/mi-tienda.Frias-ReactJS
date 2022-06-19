@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 .header{
     width: 100%;
     padding: 10px 20px;
@@ -15,6 +16,7 @@
     color: #1d175c;
     font-weight: 600;
     cursor: pointer;
+    font-family:  'Montserrat', sans-serif;
 }
 .menu ul li:hover{
     color: #e12257;
