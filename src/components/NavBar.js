@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Col, Container, Row} from 'react-bootstrap';
 import { faSearch, faStore } from "@fortawesome/free-solid-svg-icons";
 
+import CartWidget from './CartWidget';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react';
 
@@ -31,7 +32,7 @@ function NavBar() {
           <a src="#" className='icons'>
             <FontAwesomeIcon icon={faStore} />
           </a>
-          
+          <CartWidget />
         </Col>
       </Row>
       </Container>  

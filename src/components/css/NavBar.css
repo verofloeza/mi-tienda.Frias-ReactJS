@@ -20,13 +20,14 @@
     color: #e12257;
 }
 .icons{
-    padding: 20px;
+    padding: 20px 10px;
     color: #1d175c; 
     cursor: pointer;
+    float: left;
 }
 .icons svg{
-    padding: 20px 0;
     color: #1d175c; 
+    float: left;
 }
 .icons svg:hover{
     color: #e12257;
