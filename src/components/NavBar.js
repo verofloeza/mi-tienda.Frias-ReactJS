@@ -15,7 +15,7 @@ function NavBar() {
       <Container>
       <Row>
         <Col>
-          <img src={require('../assets/images/logo-mitienda-300px.png')} className="logoEmpresa" />
+          <img src={require('../assets/images/logo-mitienda-300px.png')} className="logoEmpresa" alt="Mi tienda"/>
         </Col>
         <Col xs={6} className='menu'>
           <ul>

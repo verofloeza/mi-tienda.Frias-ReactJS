@@ -3,3 +3,12 @@
     padding-top: 50px;
     font-family:  'Montserrat', sans-serif;
 }
+.card{
+    width: 150px;
+}
+.card input{ text-align: center;}
+.buttonAccent{
+    background-color: #e12257 !important;
+    border-color: #e12257 !important ;
+    font-size: x-small !important;
+}

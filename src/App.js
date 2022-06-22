@@ -5,7 +5,7 @@ function App() {
   return (
     <div className='cuerpo'>
       <NavBar />
-      <ItemListContainer />
+      <ItemListContainer inicial="0" stock="50"/>
     </div>
   );
 }
