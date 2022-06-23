@@ -3,6 +3,8 @@ import './css/ItemListContainer.css';
 import {Button, Card, Col, Container, Row} from 'react-bootstrap';
 import React, { useState } from 'react';
 
+import ItemList from './ItemList';
+
 function ItemListContainer(props) {
   const [ cant, setCant] = useState(0);
 
@@ -26,8 +28,10 @@ function ItemListContainer(props) {
         <Container>
             <Row>
                 <Col className="colPadding">
-                    <h2>Listado de productos</h2>
-                    <Card className='card'>
+                    <h3 className='pb-4 titulo'>Listado de productos</h3>
+                    
+                    <ItemList />
+                    {/* <Card className='card'>
                       <Card.Body>
                         <div class="input-group mb-3">
                           <button onClick={quitar} className="input-group-text">-</button>
@@ -36,9 +40,9 @@ function ItemListContainer(props) {
                         </div>
                         <Button className="buttonAccent">Agregar al carrito</Button>
                       </Card.Body>
-                    </Card>
+                    </Card> */}
                     
-      
+                    
                 </Col>
             </Row>
         </Container>

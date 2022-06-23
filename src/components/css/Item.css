@@ -1,0 +1,19 @@
+.card{
+    text-align: center;
+    border: 1px solid #1d175c4f !important; 
+}
+.favorito{
+    float: right;
+}
+.marca{
+    font-weight: bold;
+    color: #e12257;
+}
+.precio{
+    font-weight: bold;
+    color: #1d175c;
+}
+.titulo{
+    color: #1d175c;
+    text-transform: uppercase;
+}
