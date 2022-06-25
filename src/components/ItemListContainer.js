@@ -1,12 +1,23 @@
 import './css/ItemListContainer.css';
 
 import {Button, Card, Col, Container, Row} from 'react-bootstrap';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import ItemList from './ItemList';
 
 function ItemListContainer(props) {
   const [ cant, setCant] = useState(0);
+  const [ productos, setProductos ] = useState([]);
+
+  useEffect( () =>{
+    setTimeout(
+        ()=>{
+            fetch('constantes/productos.json')
+                .then(resp => resp.json())
+                .then(data => setProductos(data))
+        },3000
+    )
+  }, [] );
 
   const sumar = () => 
   {
@@ -30,7 +41,7 @@ function ItemListContainer(props) {
                 <Col className="colPadding">
                     <h3 className='pb-4 titulo'>Listado de productos</h3>
                     
-                    <ItemList />
+                    <ItemList productos={productos} />
                     {/* <Card className='card'>
                       <Card.Body>
                         <div class="input-group mb-3">
