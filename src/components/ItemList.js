@@ -5,25 +5,15 @@ import React, { useEffect, useState } from 'react';
 
 import Item from './Item';
 
-function ItemList() {
-  const [ productos, setProductos ] = useState([]);
-
-  useEffect( () =>{
-    setTimeout(
-        ()=>{
-            fetch('constantes/productos.json')
-                .then(resp => resp.json())
-                .then(data => setProductos(data))
-        },3000
-    )
-  }, [] );
+function ItemList(props) {
+  
 
   return (
     <div>
         <Container>
             <Row>
                 {
-                    productos.map(
+                    props.productos.map(
                         i => <Item nombre={i.nombre} precio={i.precio} marca={i.marca} />
                     )
                 }
