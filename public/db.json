@@ -1,0 +1,443 @@
+{
+  "productos": {
+    "-N3NHsyS_yvgn7acH95s": {
+      "categoria": "Accesorios",
+      "descripcion": "Elegante reloj decorativo de madera",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20anal%C3%B3gico-2022-05-31T04%3A06%3A39.244Z.jpg?alt=media&token=6b838b80-5fba-4e89-83d0-07cea766c687",
+      "marca": "Manzana",
+      "precio": "4582",
+      "title": "Reloj",
+      "usuario": "verofloeza@gmail.com"
+    },
+    "-N3NIq--W_kjMbD-Ibcb": {
+      "categoria": "Accesorios",
+      "descripcion": "Moño de madera tallada ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Mo%C3%B1o-2022-05-31T04%3A10%3A52.741Z.jpg?alt=media&token=0b176d5b-8120-4581-ba39-0e169d4531e0",
+      "marca": "Naranja",
+      "precio": "3200",
+      "title": "Moño",
+      "usuario": "verofloeza@gmail.com"
+    },
+    "-N3NLwJxxlkhMxd4Uqt_": {
+      "categoria": "Accesorios",
+      "descripcion": "Posamaceta de madera, ideal para flores chicas.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Posamaceta-2022-05-31T04%3A24%3A30.347Z.jpg?alt=media&token=39e61b25-cb61-443d-96c7-47088fbfd6a3",
+      "marca": "Manzana",
+      "precio": "8436",
+      "title": "Posamaceta",
+      "usuario": "marcos@gmail.com"
+    },
+    "-N3NMDZteipT66CWq5WC": {
+      "categoria": "Accesorios",
+      "descripcion": "Cámara de última generación, saca fotos full HD",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/C%C3%A1mara-2022-05-31T04%3A25%3A45.627Z.jpg?alt=media&token=b7c06719-6f55-45b2-a82f-4ad2115ecfa9",
+      "marca": "Pepino",
+      "precio": "12759",
+      "title": "Cámara",
+      "usuario": "marcos@gmail.com"
+    },
+    "-N3NMTXhI55mPhxunSx0": {
+      "categoria": "Accesorios",
+      "descripcion": "Lapicero de madera, aproximadamente para unos 20 lápices de colores",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Lapicero-2022-05-31T04%3A26%3A51.123Z.jpg?alt=media&token=aeae4f3e-2952-4bad-bd81-6199a24864c9",
+      "marca": "Manzana",
+      "precio": "3500",
+      "title": "Lapicero",
+      "usuario": "marcos@gmail.com"
+    },
+    "-N3NN-IE7tItyIXV2CIG": {
+      "categoria": "Accesorios",
+      "descripcion": "Portaobjetos de madera, para guardar objetos personales, por ejemplo alhajas",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Portaobjetos-2022-05-31T04%3A29%3A06.898Z.jpg?alt=media&token=ad1cff42-7a25-427c-ac78-3d0b932fb04f",
+      "marca": "Naranja",
+      "precio": "7529",
+      "title": "Portaobjetos",
+      "usuario": "marcos@gmail.com"
+    },
+    "-N3NNGcoK-y0fUGTu7IL": {
+      "categoria": "Accesorios",
+      "descripcion": "Portacelular de madera, para cualquier tipo de celular smartphones.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Portacelular-2022-05-31T04%3A30%3A19.089Z.jpg?alt=media&token=1c50b20c-f21d-437e-bc14-2d9ca0eec5a5",
+      "marca": "Manzana",
+      "precio": "6578",
+      "title": "Portacelular",
+      "usuario": "marcos@gmail.com"
+    },
+    "-N3NNZb2mW9iYzx5e1yj": {
+      "categoria": "Accesorios",
+      "descripcion": "Navaja madera, muy filosa ideal para llevar en su bolsillo",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Navaja-2022-05-31T04%3A31%3A37.604Z.jpg?alt=media&token=5031c51d-7fe7-4546-9835-3d6a93bb4965",
+      "marca": "Pepino",
+      "precio": "3298",
+      "title": "Navaja",
+      "usuario": "marcos@gmail.com"
+    },
+    "-N3NOD4QI-9BBFc6hjzd": {
+      "categoria": "Juguetes",
+      "descripcion": "Hermosa cebra de madera, los más chiquitos lo aman por sus rayas",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Cebra-2022-05-31T04%3A34%3A26.903Z.jpg?alt=media&token=35cb04d8-7bc3-4c37-9c3c-5ecab5f8febe",
+      "marca": "Toys",
+      "precio": "5298",
+      "title": "Cebra",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NOX9jo0i-mLccMbTB": {
+      "categoria": "Juguetes",
+      "descripcion": "Celular de juguete, con juegos en su interior",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Celular-2022-05-31T04%3A35%3A49.349Z.jpg?alt=media&token=69510419-73de-4328-b39c-daf9246971d0",
+      "marca": "Manzana",
+      "precio": "7823",
+      "title": "Celular",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NOokp99a8bN9n6JMB": {
+      "categoria": "Juguetes",
+      "descripcion": "Robot de madera, articulado, con Luz láser. ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Robot-2022-05-31T04%3A37%3A04.978Z.jpg?alt=media&token=1d4b91cc-c7ff-4827-945e-01ff11885332",
+      "marca": "Toys",
+      "precio": "9764",
+      "title": "Robot",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NP26zQzyYSpFjpt3n": {
+      "categoria": "Juguetes",
+      "descripcion": "Pingüino de juguete, inrrompible",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Ping%C3%BCino-2022-05-31T04%3A38%3A04.302Z.jpg?alt=media&token=488e50b2-7516-409e-9f31-240794d3708b",
+      "marca": "Toys",
+      "precio": "1682",
+      "title": "Pingüino",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NPMJbJq4xTJQkikc3": {
+      "categoria": "Juguetes",
+      "descripcion": "Monstruo articulado de madera, varios colores",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Monstruo-2022-05-31T04%3A39%3A26.846Z.jpg?alt=media&token=a46bd8c2-256d-4e57-af92-718cc55f5c29",
+      "marca": "Manzatoys",
+      "precio": "5879",
+      "title": "Monstruo",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NPjdKFsm_KFssReXi": {
+      "categoria": "Juguetes",
+      "descripcion": "Perro de madera, parado",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Perro-2022-05-31T04%3A41%3A07.564Z.jpg?alt=media&token=83ebf9d1-40be-4596-8710-daa7be1dcce1",
+      "marca": "Manzatoys",
+      "precio": "3298",
+      "title": "Perro",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NPyfF19rOvjPLGeJb": {
+      "categoria": "Juguetes",
+      "descripcion": "Mundo de madera, ideal para aprender los hermosos lugares de nuestra tierra",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Mundo-2022-05-31T04%3A42%3A08.080Z.jpg?alt=media&token=186d44cc-7b60-4147-a382-19efee3c4913",
+      "marca": "Toys",
+      "precio": "9846",
+      "title": "Mundo",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NQAvJU_XDuTDzGSjb": {
+      "categoria": "Juguetes",
+      "descripcion": "Mono de madera, que se cuelga en cualquier parte",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Mono-2022-05-31T04%3A43%3A01.812Z.jpg?alt=media&token=13015789-4a34-40ea-9ee4-8d95671ad286",
+      "marca": "Toys",
+      "precio": "7541",
+      "title": "Mono",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NQPxGewipPbRrpYQ5": {
+      "categoria": "Juguetes",
+      "descripcion": "Perro tamaño chico, tallado a mano",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Perro%20chico-2022-05-31T04%3A44%3A04.951Z.jpg?alt=media&token=fe52b09f-fd85-488e-b575-c21430289eff",
+      "marca": "Toys",
+      "precio": "5176",
+      "title": "Perro chico",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NR9d9Un-m05dehve0": {
+      "categoria": "Lamparas",
+      "descripcion": "Lámpara de mesa color negro",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20negro-2022-05-31T04%3A47%3A18.708Z.jpg?alt=media&token=bfc1c886-2d87-4a44-98fa-ceac94773d50",
+      "marca": "Luz Divina",
+      "precio": "21579",
+      "title": "Lámpara negro",
+      "usuario": "noemi@gmail.com"
+    },
+    "-N3NRPB2u7SltRAKKqkG": {
+      "categoria": "Lamparas",
+      "descripcion": "Lampara de techo celeste, ideal para cocina",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20celeste-2022-05-31T04%3A48%3A23.476Z.jpg?alt=media&token=260c1b3c-f20d-4307-91d1-da275633d0a7",
+      "marca": "Luz Divina",
+      "precio": "15796",
+      "title": "Lámpara celeste",
+      "usuario": "noemi@gmail.com"
+    },
+    "-N3NRiL5twLSt5sQ4bRW": {
+      "categoria": "Lamparas",
+      "descripcion": "Lámpara de mesa, ideal para mesa de luz",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20blanca-2022-05-31T04%3A49%3A42.763Z.jpg?alt=media&token=253a328b-f687-41d1-a29d-c80f6d70f718",
+      "marca": "Luz Divina",
+      "precio": "9843",
+      "title": "Lámpara blanca",
+      "usuario": "noemi@gmail.com"
+    },
+    "-N3NRyfapoXja9HYaOk5": {
+      "categoria": "Lamparas",
+      "descripcion": "Lámpara de techo, ideal para pasillos largos",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20gris-2022-05-31T04%3A50%3A53.520Z.jpg?alt=media&token=38090caa-2328-47b9-98d4-d03e553ec45d",
+      "marca": "Luz Divina",
+      "precio": "7598",
+      "title": "Lámpara gris",
+      "usuario": "noemi@gmail.com"
+    },
+    "-N3NSBrF-8wJF8M9Cq2G": {
+      "categoria": "Lamparas",
+      "descripcion": "Hermosa lámpara de diseñador, ideal para living",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20amarilla-2022-05-31T04%3A51%3A51.320Z.jpg?alt=media&token=f763d61b-3551-40f7-8b58-7c9c68ada64c",
+      "marca": "Luz Divina",
+      "precio": "14985",
+      "title": "Lámpara amarilla",
+      "usuario": "noemi@gmail.com"
+    },
+    "-N3NSlc2XLiy6-xN3GZ7": {
+      "categoria": "Lamparas",
+      "descripcion": "Lámpara ideal para living de techo",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20blanca-2022-05-31T04%3A54%3A18.336Z.jpg?alt=media&token=fa727a07-f914-4869-8c89-2be63d9b6a6a",
+      "marca": "Luz Divina",
+      "precio": "7532",
+      "title": "Lámpara blanca",
+      "usuario": "valentin@gmail.com"
+    },
+    "-N3NT15ZT3KUBzi9LWDv": {
+      "categoria": "Lamparas",
+      "descripcion": "Lámpara verde, ideal para decoración vintage",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20verde-2022-05-31T04%3A55%3A24.747Z.jpg?alt=media&token=2e25bfde-6f8c-46cb-9abe-581af18ade36",
+      "marca": "Luz Divina",
+      "precio": "4628",
+      "title": "Lámpara verde",
+      "usuario": "valentin@gmail.com"
+    },
+    "-N3NTKOiJ6I8-JSuSVqG": {
+      "categoria": "Lamparas",
+      "descripcion": "Lámpara de diseñador amarillo, ideal para living",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20dise%C3%B1ador-2022-05-31T04%3A56%3A47.824Z.jpg?alt=media&token=d83ea643-a6c8-48bc-8835-518a026bd714",
+      "marca": "Luz Divina",
+      "precio": "9753",
+      "title": "Lámpara diseñador",
+      "usuario": "valentin@gmail.com"
+    },
+    "-N3NTZuWE2SUKQBBvZvO": {
+      "categoria": "Lamparas",
+      "descripcion": "Lámpara azul en forma de paragua ideal para oficina",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/L%C3%A1mpara%20azul-2022-05-31T04%3A57%3A50.103Z.jpg?alt=media&token=9e27e26e-ba1f-4e27-9d9f-15b2937f7fb7",
+      "marca": "Luz Divina",
+      "precio": "12000",
+      "title": "Lámpara azul",
+      "usuario": "valentin@gmail.com"
+    },
+    "-N3NUE6SlJLI9XTVKIxU": {
+      "categoria": "Muebles",
+      "descripcion": "Mesa de madera lustrada larga ideal para familias grandes",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Mesa%20larga-2022-05-31T05%3A00%3A43.690Z.jpg?alt=media&token=f51a79ac-ca8a-4a96-b3a9-96146223a913",
+      "marca": "Mueblaza",
+      "precio": "45982",
+      "title": "Mesa larga",
+      "usuario": "valentin@gmail.com"
+    },
+    "-N3NUclIZLP2PTeX0kEn": {
+      "categoria": "Muebles",
+      "descripcion": "Banco de jardín, para colocar almohadones. ",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Banco%20de%20jard%C3%ADn-2022-05-31T05%3A02%3A29.844Z.jpg?alt=media&token=3692b0c8-7afb-4ec4-88ba-904af062585d",
+      "marca": "Mueblaza",
+      "precio": "65821",
+      "title": "Banco de jardín",
+      "usuario": "valentin@gmail.com"
+    },
+    "-N3NUsXbWWPR0dONloMn": {
+      "categoria": "Muebles",
+      "descripcion": "Puff de colores brillantes",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Puff-2022-05-31T05%3A03%3A35.284Z.jpg?alt=media&token=605e7f04-51b9-487c-994e-508d60cc5661",
+      "marca": "Mueblaza",
+      "precio": "6582",
+      "title": "Puff",
+      "usuario": "valentin@gmail.com"
+    },
+    "-N3NVCcLsfdCnvT7sdSv": {
+      "categoria": "Muebles",
+      "descripcion": "Cómoda de madera ideal para espacios chicos",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/C%C3%B3moda-2022-05-31T05%3A05%3A00.447Z.jpg?alt=media&token=0b3fac30-eac8-4f67-bc1a-8461a3ccec18",
+      "marca": "Mueblaza",
+      "precio": "65421",
+      "title": "Cómoda",
+      "usuario": "verofloeza@gmail.com"
+    },
+    "-N3NVQ6Nuch9vTM4eeDh": {
+      "categoria": "Muebles",
+      "descripcion": "Silla de madera ideal para mesa de cocina.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Silla%20-2022-05-31T05%3A05%3A56.973Z.jpg?alt=media&token=1cba6542-a413-49ab-b119-e44d8420f1a8",
+      "marca": "Mueblaza",
+      "precio": "7513",
+      "title": "Silla ",
+      "usuario": "verofloeza@gmail.com"
+    },
+    "-N3NVdfekoV_OGCov1mn": {
+      "categoria": "Muebles",
+      "descripcion": "Comodisima silla de escritorio giratoria, con rueditas",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Silla%20de%20escritorio-2022-05-31T05%3A06%3A54.496Z.jpg?alt=media&token=d9213534-f02c-45bd-8384-d0f4bc288e9e",
+      "marca": "Mueblaza",
+      "precio": "12498",
+      "title": "Silla de escritorio",
+      "usuario": "verofloeza@gmail.com"
+    },
+    "-N3NVvYgQLr1dxScP9zU": {
+      "categoria": "Muebles",
+      "descripcion": "Silla decorativa ideal para lugares decorativos",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Silla%20decorativa-2022-05-31T05%3A08%3A08.069Z.jpg?alt=media&token=5da10ae9-52c9-44ac-8183-3efb2669e0af",
+      "marca": "Mueblaza",
+      "precio": "19856",
+      "title": "Silla decorativa",
+      "usuario": "verofloeza@gmail.com"
+    },
+    "-N3NWQM-oVYbm42K6npK": {
+      "categoria": "Muebles",
+      "descripcion": "Mesa de escritorio ideal para adolescentes",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Mesa%20escritorio-2022-05-31T05%3A10%3A19.660Z.jpg?alt=media&token=f6ced726-fce6-48b8-9de2-15634e3169b8",
+      "marca": "Mueblaza",
+      "precio": "4689",
+      "title": "Mesa escritorio",
+      "usuario": "marcos@gmail.com"
+    },
+    "-N3NX6K6m3RF-136270e": {
+      "categoria": "Relojes",
+      "descripcion": "Reloj blanco con agujas de color chico",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20blanco-2022-05-31T05%3A13%3A19.425Z.jpg?alt=media&token=392811eb-b9d9-4cb5-8fc4-6fd036926dad",
+      "marca": "Swatch",
+      "precio": "1895",
+      "title": "Reloj blanco",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NXHiqHX_nN0waxjAI": {
+      "categoria": "Relojes",
+      "descripcion": "Reloj verde para cocina",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20verde-2022-05-31T05%3A14%3A06.418Z.jpg?alt=media&token=5f0dab38-5a35-45f0-95a3-46a3f2bfdbf4",
+      "marca": "Swatch",
+      "precio": "3542",
+      "title": "Reloj verde",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NXaPp8tQITB_jj5pT": {
+      "categoria": "Relojes",
+      "descripcion": "Reloj de diseñador ideal para varones",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20dise%C3%B1ador-2022-05-31T05%3A15%3A21.324Z.jpg?alt=media&token=906b928d-a314-43cd-adb7-68e9cb2ba9fe",
+      "marca": "Swatch",
+      "precio": "4982",
+      "title": "Reloj diseñador",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NXvSrtUknGQvfEQcs": {
+      "categoria": "Relojes",
+      "descripcion": "Reloj de madera ideal para oficinas",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20madera-2022-05-31T05%3A16%3A51.561Z.jpg?alt=media&token=f9bd267f-0264-45b3-9333-f1fb18dfb800",
+      "marca": "Swatch",
+      "precio": "3298",
+      "title": "Reloj madera",
+      "usuario": "agustin@gmail.com"
+    },
+    "-N3NYGvJbDFU6B81K7SU": {
+      "categoria": "Relojes",
+      "descripcion": "Hermoso reloj de diseñador tipo moño",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20dise%C3%B1ador-2022-05-31T05%3A18%3A25.119Z.jpg?alt=media&token=24dd057e-2ce2-4063-928d-7ccea4fcd8cc",
+      "marca": "Swatch",
+      "precio": "18329",
+      "title": "Reloj diseñador",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NYUH6qblV7bj_sQWL": {
+      "categoria": "Relojes",
+      "descripcion": "Reloj negro ideal para espacios masculinos",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20negro-2022-05-31T05%3A19%3A16.166Z.jpg?alt=media&token=3426daac-05e8-4a9d-89c6-1ef3d37bc042",
+      "marca": "Swatch",
+      "precio": "7469",
+      "title": "Reloj negro",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NYiirSFF2v5ivV68R": {
+      "categoria": "Relojes",
+      "descripcion": "Moderno reloj ideal para espacios elegantes",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20moderno-2022-05-31T05%3A20%3A21.740Z.jpg?alt=media&token=6004ca80-13f6-44ed-9d3b-5ff7edc58f15",
+      "marca": "Swatch",
+      "precio": "12985",
+      "title": "Reloj moderno",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NYyiLlwLd5npMr4f6": {
+      "categoria": "Relojes",
+      "descripcion": "Reloj madera forma de libro, ideal para biblioteca",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20elegante-2022-05-31T05%3A21%3A27.141Z.jpg?alt=media&token=47d930d0-a386-45cf-bc09-ab27e8a93aa1",
+      "marca": "Swatch",
+      "precio": "39847",
+      "title": "Reloj elegante",
+      "usuario": "ariel@gmail.com"
+    },
+    "-N3NZ9yJurAVxRuLAhmE": {
+      "categoria": "Relojes",
+      "descripcion": "Reloj redondo de diseñador, chico",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Reloj%20redondo-2022-05-31T05%3A22%3A18.592Z.jpg?alt=media&token=9fc8f1c2-dc69-4721-8bf6-d7b44ffcf77d",
+      "marca": "Swatch",
+      "precio": "16872",
+      "title": "Reloj redondo",
+      "usuario": "ariel@gmail.com"
+    }
+  },
+  "usuarios": {
+    "-N2SjYXbqbrFQYCNuVYv": {
+      "constrasena": "123456",
+      "direccion": "Arieta 3435, San Justo",
+      "email": "verofloeza@gmail.com",
+      "empresa": "Girl Power",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Veronica-2022-05-31T03%3A24%3A33.124Z.jpg?alt=media&token=694934d0-9eaa-4e99-9f66-137eae8e8271",
+      "nombre": "Veronica",
+      "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5N2Q3ZmI1ZGNkZThjZDA0OGQzYzkxNThiNjIwYjY5MTA1MjJiNGQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2F0YWxvZ290aWVuZGEtMTg4MjUiLCJhdWQiOiJjYXRhbG9nb3RpZW5kYS0xODgyNSIsImF1dGhfdGltZSI6MTY1Mjk4NzY3MSwidXNlcl9pZCI6IlJYQjlseFE4MldXOVdjd2hKUXphV2U1MmtCSTIiLCJzdWIiOiJSWEI5bHhRODJXVzlXY3doSlF6YVdlNTJrQkkyIiwiaWF0IjoxNjUyOTg3NjcxLCJleHAiOjE2NTI5OTEyNzEsImVtYWlsIjoidmVyb2Zsb2V6YUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsidmVyb2Zsb2V6YUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.AkFgdqmGhmb4q4370fxszYtTfC3Po6EAiiqd_dv0mly1S6KDq_CM63c92Upp0WMg8oC3d1Sux-b8Zzm0Asv-UjDJaQ1c7ThJ9f4B7SQO1GyUTcFt5yYyysd1ubA6AsWv_Q5yypqDADd62hn69OWBmXNg0zmET-JXIMsIRvnC1pnFT8TZ40HNQdyaPf0AB0JKsohCv3jCx9jvcIOZouSM2pwrryIoe8eYOF_uuvaFRC9yvXJDNnInK95OvsW61ZZs5QUXyCQOyvScuPKp3xtAz4NneynR0OR0XIbQd-CJuZxW00xSjMrbdmv0UFT11TBUwd7hPbloY09BnzYj1ztG0g",
+      "whastapp": "1123290534"
+    },
+    "-N3MUHEGkdrmkW9ZVnJ8": {
+      "direccion": "Guatemala 3456, la Tablada",
+      "email": "ariel@gmail.com",
+      "empresa": "Cozumiel",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Ariel-2022-05-31T03%3A25%3A30.454Z.jpg?alt=media&token=afadcbd2-e232-425b-93db-1d0583f57ab4",
+      "nombre": "Ariel",
+      "whastapp": "1123290534"
+    },
+    "-N3Mm9GUXqRoG1sD2f40": {
+      "direccion": "Buenas 876, Casanova",
+      "email": "agustin@gmail.com",
+      "empresa": "We're Open",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Agust%C3%ADn-2022-05-31T03%3A23%3A26.676Z.jpg?alt=media&token=5783dee4-6b15-4041-9175-c0447beed331",
+      "nombre": "Agustín",
+      "whastapp": "1123290534"
+    },
+    "-N3MnkEQi_YGohFlp9IX": {
+      "direccion": "Av. San Martín 2311, CABA",
+      "email": "marcos@gmail.com",
+      "empresa": "Cozumiel",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Ariel-2022-05-31T03%3A25%3A30.454Z.jpg?alt=media&token=afadcbd2-e232-425b-93db-1d0583f57ab4",
+      "nombre": "Ariel",
+      "whastapp": "1123290534"
+    },
+    "-N3N9l1AquQJ5eVoKdc5": {
+      "direccion": "Pampa 6547, Ramos Mejía",
+      "email": "noemi@gmail.com",
+      "empresa": "Beauty",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Noem%C3%AD-2022-05-31T03%3A33%3A49.192Z.jpg?alt=media&token=40d1d0e1-9017-46f1-ae43-c7412a744d9d",
+      "nombre": "Noemí",
+      "whastapp": "1123290534"
+    },
+    "-N3NBLYT5veawqCg6Afl": {
+      "direccion": "Inca 4563",
+      "email": "valentin@gmail.com",
+      "empresa": "Posamar",
+      "image": "https://firebasestorage.googleapis.com/v0/b/catalogotienda-18825.appspot.com/o/Valent%C3%ADn-2022-05-31T03%3A41%3A18.643Z.jpg?alt=media&token=c756f5fc-1e0b-4360-b6e9-c22f360beb45",
+      "nombre": "Valentín",
+      "whastapp": "1123290534"
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import './css/ItemList.css';
 
 import { Container, Row } from 'react-bootstrap';
-import React, { useEffect, useState } from 'react';
 
 import Item from './Item';
+import React from 'react';
 
 function ItemList(props) {
   
@@ -14,7 +14,7 @@ function ItemList(props) {
             <Row>
                 {
                     props.productos.map(
-                        i => <Item nombre={i.nombre} precio={i.precio} marca={i.marca} imagen={i.imagen} />
+                        i => <Item key={i.id} nombre={i.nombre} precio={i.precio} marca={i.marca} imagen={i.imagen} />
                     )
                 }
                         
