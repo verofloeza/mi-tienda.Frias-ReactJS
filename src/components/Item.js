@@ -12,7 +12,7 @@ function Item(props) {
                 <Col className="col-3 pb-4">
                     <Card className='card'>
                         <Card.Body>
-                            <img src={require('../assets/images/sin-imagen.jpg')} alt={props.nombre} style={{width: '100%'}}/>   
+                            <img src={require(`../assets/images/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>   
                             <span className='favorito'><AiOutlineHeart/></span>
                             <h5 className='titulo'><strong>{props.nombre}</strong></h5>
                             <p className='marca'>{props.marca}</p>
