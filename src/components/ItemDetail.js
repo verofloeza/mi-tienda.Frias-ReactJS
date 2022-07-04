@@ -29,13 +29,13 @@ function ItemDetail(props) {
                 <Col md={2}>
                     <ul>
                         <li className='imagenThumbail'>
-                            <img src={require(`../assets/images/${producto.imagen}`)} alt={producto.nombre} style={{width: '100%'}}/> 
+                            <img src={require(`../assets/images/productos/${producto.imagen}`)} alt={producto.nombre} style={{width: '100%'}}/> 
                         </li>
                     </ul>
                 </Col>
                 <Col md={6}>
                     <div className='imagenPrincipal'>
-                       <img src={require(`../assets/images/${producto.imagen}`)} alt={producto.nombre} style={{width: '100%'}}/> 
+                       <img src={require(`../assets/images/productos/${producto.imagen}`)} alt={producto.nombre} style={{width: '100%'}}/> 
                     </div>
                 </Col>
                 <Col className='productoDescripcion'>

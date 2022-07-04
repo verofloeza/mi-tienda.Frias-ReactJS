@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "constrasena": "123456",
+        "direccion": "Arieta 3435, San Justo",
+        "email": "verofloeza@gmail.com",
+        "empresa": "Girl Power",
+        "image": "GirlPower.jpeg",
+        "nombre": "Veronica",
+        "token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjY5N2Q3ZmI1ZGNkZThjZDA0OGQzYzkxNThiNjIwYjY5MTA1MjJiNGQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2F0YWxvZ290aWVuZGEtMTg4MjUiLCJhdWQiOiJjYXRhbG9nb3RpZW5kYS0xODgyNSIsImF1dGhfdGltZSI6MTY1Mjk4NzY3MSwidXNlcl9pZCI6IlJYQjlseFE4MldXOVdjd2hKUXphV2U1MmtCSTIiLCJzdWIiOiJSWEI5bHhRODJXVzlXY3doSlF6YVdlNTJrQkkyIiwiaWF0IjoxNjUyOTg3NjcxLCJleHAiOjE2NTI5OTEyNzEsImVtYWlsIjoidmVyb2Zsb2V6YUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsidmVyb2Zsb2V6YUBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.AkFgdqmGhmb4q4370fxszYtTfC3Po6EAiiqd_dv0mly1S6KDq_CM63c92Upp0WMg8oC3d1Sux-b8Zzm0Asv-UjDJaQ1c7ThJ9f4B7SQO1GyUTcFt5yYyysd1ubA6AsWv_Q5yypqDADd62hn69OWBmXNg0zmET-JXIMsIRvnC1pnFT8TZ40HNQdyaPf0AB0JKsohCv3jCx9jvcIOZouSM2pwrryIoe8eYOF_uuvaFRC9yvXJDNnInK95OvsW61ZZs5QUXyCQOyvScuPKp3xtAz4NneynR0OR0XIbQd-CJuZxW00xSjMrbdmv0UFT11TBUwd7hPbloY09BnzYj1ztG0g",
+        "whastapp": "1123290534"
+    },
+    {
+        "id":2,
+        "direccion": "Guatemala 3456, la Tablada",
+        "email": "ariel@gmail.com",
+        "empresa": "Cozumiel",
+        "image": "Cozumiel.jpeg",
+        "nombre": "Ariel",
+        "whastapp": "1123290534"
+    },
+    {
+        "id":3,
+        "direccion": "Buenas 876, Casanova",
+        "email": "agustin@gmail.com",
+        "empresa": "We're Open",
+        "image": "WereOpen.jpeg",
+        "nombre": "Agustín",
+        "whastapp": "1123290534"
+    },
+    {
+        "id":4,
+        "direccion": "Av. San Martín 2311, CABA",
+        "email": "marcos@gmail.com",
+        "empresa": "Cozumiel",
+        "image": "Cozumiel.jpeg",
+        "nombre": "Ariel",
+        "whastapp": "1123290534"
+    },
+    {
+        "id":5,
+        "direccion": "Pampa 6547, Ramos Mejía",
+        "email": "noemi@gmail.com",
+        "empresa": "Beauty",
+        "image": "Beauty.jpeg",
+        "nombre": "Noemí",
+        "whastapp": "1123290534"
+    },
+    {
+        "id":6,
+        "direccion": "Inca 4563",
+        "email": "valentin@gmail.com",
+        "empresa": "Posamar",
+        "image": "Posamar.jpeg",
+        "nombre": "Valentín",
+        "whastapp": "1123290534"
+    }
+]

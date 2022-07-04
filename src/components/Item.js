@@ -14,13 +14,13 @@ function Item(props) {
                     <Link to={`/${props.nombre.replace(" ", "-")}`}>
                         <Card>
                             <Card.Body>
-                                <img src={require(`../assets/images/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>   
+                                <img src={require(`../assets/images/productos/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>   
                                 <span className='favorito'><AiOutlineHeart/></span>
                                 <h5 className='titulo'><strong>{props.nombre}</strong></h5>
                                 <p className='marca'>{props.marca}</p>
                                 <p className='precio'>${props.precio}</p>
                                 
-                                <Button className="buttonAccent">Agregar al carrito</Button>
+                                <Button className="buttonAccent mb-3">Agregar al carrito</Button>
                             </Card.Body>
                         </Card>
                     </Link>

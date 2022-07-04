@@ -40,7 +40,7 @@ function NavBar() {
           <a src="#" className='icons'>
             <FontAwesomeIcon icon={faSearch} />
           </a>
-          <a src="#" className='icons'>
+          <a href="/vendedores" className='icons'>
             <FontAwesomeIcon icon={faStore} />
           </a>
           <CartWidget />
