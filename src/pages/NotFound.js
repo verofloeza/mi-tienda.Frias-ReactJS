@@ -13,6 +13,7 @@ function NotFound() {
       <Container>
         <Row>
             <Col className="colPadding text-center">
+                <h1>Página No Encontrada</h1>
                 <h2 className='mb-5'>Página 404</h2>
                 <img src={require('../assets/images/404.png')} alt="404 Página no encontrada" className='image'/>
             </Col>

@@ -31,10 +31,10 @@ function Home() {
   return (
     <div className='body'>
         <AliceCarousel autoPlay autoPlayInterval="3000">
-            <img src={require('../assets/images/sin-imagen.jpg')} className="sliderimg"/>
-            <img src={require('../assets/images/sin-imagen.jpg')} className="sliderimg"/>
-            <img src={require('../assets/images/sin-imagen.jpg')} className="sliderimg"/>
-            <img src={require('../assets/images/sin-imagen.jpg')} className="sliderimg"/>
+            <img src={require('../assets/images/slide/slider-accesorios.jpg')} className="sliderimg"/>
+            <img src={require('../assets/images/slide/slider-juguetes.jpg')} className="sliderimg"/>
+            <img src={require('../assets/images/slide/slider-lamparas.jpg')} className="sliderimg"/>
+            <img src={require('../assets/images/slide/slider-muebles.jpg')} className="sliderimg"/>
         </AliceCarousel>
         <Container>
             <Row>

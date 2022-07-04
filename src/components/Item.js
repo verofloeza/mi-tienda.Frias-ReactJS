@@ -11,7 +11,7 @@ import React from 'react';
 function Item(props) {
   return (
                 <Col className="col-3 pb-4">
-                    <Link to={`/${props.nombre.replace(" ", "-")}`}>
+                    <Link to={`/producto/${props.nombre.replace(" ", "-")}`}>
                         <Card>
                             <Card.Body>
                                 <img src={require(`../assets/images/productos/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>   

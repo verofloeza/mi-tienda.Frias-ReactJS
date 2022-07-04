@@ -20,7 +20,7 @@ function App() {
           <Route path="/productos" element={<ItemListContainer />}></Route>
           <Route path="/nosotros" element={<Nosotros/>}></Route>
           <Route path="/contacto" element={<Contacto/>}></Route>
-          <Route path="/:productName" element={<ItemDetailContainer/>}></Route>
+          <Route path="/producto/:productName" element={<ItemDetailContainer />}></Route>
           <Route path="/categoria/:category" element={<ItemListContainer />}></Route>
           <Route path="/vendedores" element={<ListVendedoresContainer />}></Route>
           <Route path="/notFound" element={<NotFound />} />

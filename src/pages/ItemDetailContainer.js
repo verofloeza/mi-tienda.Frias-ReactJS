@@ -9,11 +9,11 @@ import { useParams } from 'react-router-dom';
 function ItemDetailContainer() {
   const [ producto, setProducto ] = useState([]);
   const params = useParams();
-
+  
   useEffect( () =>{
     setTimeout(
         ()=>{
-            fetch('constantes/productos.json')
+            fetch('../constantes/productos.json')
                 .then(resp => resp.json())
                 .then(data => setProducto(data.filter( i => i.nombre === params.productName.replace("-", " ")) ))
         },2000
@@ -26,7 +26,7 @@ function ItemDetailContainer() {
             <Row>
                 <Col className="colPadding">
                     
-                    { producto.length !== 0 && <ItemDetail productoDetalle={producto} /> } 
+                     { producto.length !== 0 && <ItemDetail productoDetalle={producto} /> }  
                     
                 </Col>
             </Row>
