@@ -5,6 +5,7 @@
 }
 .body{ 
     background-color: #edebeb;
+    padding-bottom: 50px;
 }
 .card input{ text-align: center;}
 .buttonAccent{

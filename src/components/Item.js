@@ -5,22 +5,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Card, Col} from 'react-bootstrap';
 
 import { AiOutlineHeart } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import React from 'react';
 
 function Item(props) {
   return (
                 <Col className="col-3 pb-4">
-                    <Card className='card'>
-                        <Card.Body>
-                            <img src={require(`../assets/images/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>   
-                            <span className='favorito'><AiOutlineHeart/></span>
-                            <h5 className='titulo'><strong>{props.nombre}</strong></h5>
-                            <p className='marca'>{props.marca}</p>
-                            <p className='precio'>${props.precio}</p>
-                            
-                            <Button className="buttonAccent">Agregar al carrito</Button>
-                        </Card.Body>
-                    </Card>
+                    <Link to={`/${props.nombre.replace(" ", "-")}`}>
+                        <Card>
+                            <Card.Body>
+                                <img src={require(`../assets/images/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>   
+                                <span className='favorito'><AiOutlineHeart/></span>
+                                <h5 className='titulo'><strong>{props.nombre}</strong></h5>
+                                <p className='marca'>{props.marca}</p>
+                                <p className='precio'>${props.precio}</p>
+                                
+                                <Button className="buttonAccent">Agregar al carrito</Button>
+                            </Card.Body>
+                        </Card>
+                    </Link>
                 </Col>       
   );
 }

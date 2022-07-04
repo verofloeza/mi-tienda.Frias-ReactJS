@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+.footer{
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid #c5c8cb; 
+    background-color: white;
+}
+.logoEmpresaFooter{
+    width: 30px;
+
+}
+.copy{
+    padding-top: 10px;
+    text-align: right;
+}
+.copy p{
+    font-size: 10px;
+}

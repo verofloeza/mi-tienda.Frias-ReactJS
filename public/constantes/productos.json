@@ -3,7 +3,7 @@
         "id":1, 
         "nombre": "Producto 1", 
         "marca": "Marca", 
-        "categoria":1,
+        "categoria": "Accesorios",
         "precio": 1500,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -12,7 +12,7 @@
         "id":2,  
         "nombre": "Producto 2", 
         "marca": "Marca", 
-        "categoria":1, 
+        "categoria":"Accesorios", 
         "precio": 800,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -21,7 +21,7 @@
         "id":3,  
         "nombre":"Producto 3", 
         "marca": "Marca", 
-        "categoria":1,
+        "categoria":"Accesorios",
         "precio": 1000,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -30,7 +30,7 @@
         "id":4,  
         "nombre": "Producto 4", 
         "marca": "Marca", 
-        "categoria":1,
+        "categoria":"Accesorios",
         "precio": 700,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -39,7 +39,7 @@
         "id":5, 
         "nombre": "Producto 5", 
         "marca": "Marca",
-        "categoria":1,
+        "categoria":"Accesorios",
         "precio": 1100,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -49,7 +49,7 @@
         "id":6,  
         "nombre":"Producto 6", 
         "marca": "Marca", 
-        "categoria":1,
+        "categoria":"Accesorios",
         "precio": 2000,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -59,7 +59,7 @@
         "id":7,  
         "nombre": "Producto 7", 
         "marca": "Marca", 
-        "categoria":2,
+        "categoria":"Juguetes",
         "precio": 1800,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -68,7 +68,7 @@
         "id":8,  
         "nombre": "Producto 8", 
         "marca": "Marca", 
-        "categoria":2,
+        "categoria":"Juguetes",
         "precio": 1500,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -77,7 +77,7 @@
         "id":9, 
         "nombre": "Producto 9", 
         "marca": "Marca",
-        "categoria":2,
+        "categoria":"Juguetes",
         "precio": 1600,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -86,7 +86,7 @@
         "id":10,  
         "nombre":"Producto 10",
         "marca": "Marca",
-        "categoria":2,
+        "categoria":"Juguetes",
         "precio": 1800,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -95,7 +95,7 @@
         "id":11,  
         "nombre": "Producto 11", 
         "marca": "Marca",
-        "categoria":3,
+        "categoria":"Lámparas",
         "precio": 600,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -104,7 +104,7 @@
         "id":12, 
         "nombre": "Producto 12", 
         "marca": "Marca", 
-        "categoria":3,
+        "categoria":"Lámparas",
         "precio": 1400,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -113,7 +113,7 @@
         "id":13, 
         "nombre": "Producto 13", 
         "marca": "Marca",
-        "categoria":3,
+        "categoria":"Lámparas",
         "precio": 1300,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -122,7 +122,7 @@
         "id":14,  
         "nombre": "Producto 14", 
         "marca": "Marca",
-        "categoria":3,
+        "categoria":"Lámparas",
         "precio": 900,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -131,7 +131,7 @@
         "id":15,  
         "nombre": "Producto 15", 
         "marca": "Marca", 
-        "categoria":4,
+        "categoria":"Muebles",
         "precio": 800,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"
@@ -140,7 +140,7 @@
         "id":16,  
         "nombre": "Producto 16", 
         "marca": "Marca", 
-        "categoria":4,
+        "categoria":"Muebles",
         "precio": 1900,
         "descripcion": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "imagen" : "sin-imagen.jpg"

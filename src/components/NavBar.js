@@ -7,6 +7,7 @@ import { faSearch, faStore } from "@fortawesome/free-solid-svg-icons";
 
 import CartWidget from './CartWidget';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { NavLink } from 'react-router-dom';
 import React from 'react';
 
 function NavBar() {
@@ -18,11 +19,21 @@ function NavBar() {
           <img src={require('../assets/images/logo-mitienda-300px.png')} className="logoEmpresa" alt="Mi tienda"/>
         </Col>
         <Col xs={6} className='menu'>
-          <ul>
-            <li><a src="#">Inicio</a></li>
-            <li><a src="#">Productos</a></li>
-            <li><a src="#">Nosotros</a></li>
-            <li><a src="#">Contacto</a></li>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><NavLink activeClassName='active' to='/inicio'>Inicio</NavLink></li>
+            <li class="nav-item">
+              <NavLink activeClassName='active' to='#' className='dropdown-toggle' data-bs-toggle="dropdown" role="button" aria-expanded="false">
+                Productos</NavLink>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/productos">Todos</a></li>
+                  <li><a class="dropdown-item" href="/categoria/Accesorios">Accesorios</a></li>
+                  <li><a class="dropdown-item" href="/categoria/Juguetes">Juguetes</a></li>
+                  <li><a class="dropdown-item" href="/categoria/Lámparas">Lámparas</a></li>
+                  <li><a class="dropdown-item" href="/categoria/Muebles">Muebles</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><NavLink activeClassName='active' to='/nosotros'>Nosotros</NavLink></li>
+            <li class="nav-item"><NavLink activeClassName='active' to='/contacto'>Contacto</NavLink></li>
           </ul>
         </Col>
         <Col>

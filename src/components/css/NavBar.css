@@ -21,6 +21,17 @@
 .menu ul li:hover{
     color: #e12257;
 }
+.menu ul li ul.dropdown-menu li{
+    float: none;
+}
+.menu ul li ul.dropdown-menu li a{
+    color: #1d175c;
+    background-color: white;
+}
+.menu ul li ul.dropdown-menu li:hover a{
+    color: #e12257 !important;
+    background-color: white;
+}
 .icons{
     padding: 20px 10px;
     color: #1d175c; 
@@ -32,5 +43,8 @@
     float: left;
 }
 .icons svg:hover{
+    color: #e12257;
+}
+.active{
     color: #e12257;
 }

@@ -8,7 +8,6 @@ import { AiOutlineHeart } from "react-icons/ai";
 function ItemDetail(props) { 
     const [ cant, setCant] = useState(0);
     const producto = props.productoDetalle[0];
-    console.log(props.productoDetalle)
     const sumar = () => 
   {
     if( cant < props.stock ){
