@@ -8,19 +8,21 @@ import { AiOutlineHeart } from "react-icons/ai";
 function ItemDetail(props) { 
     const [ cant, setCant] = useState(0);
     const producto = props.productoDetalle[0];
+    
     const sumar = () => 
-  {
-    if( cant < props.stock ){
-      setCant(cant+1);
+    {
+        if( cant < props.stock ){
+        setCant(cant+1);
+        }
     }
-  }
 
-  const quitar = () => 
-  {
-    if( cant > props.inicial ){
-      setCant(cant-1);
+    const quitar = () => 
+    {
+        if( cant > props.inicial ){
+        setCant(cant-1);
+        }
     }
-  }
+    const guardar = (event) => setCant(event.target.value);
 
   return (
     <div>
@@ -69,7 +71,7 @@ function ItemDetail(props) {
                                     <Card.Body>
                                         <div class="input-group mb-3">
                                         <button onClick={quitar} className="input-group-text">-</button>
-                                        <input type="text" class="form-control" value={cant} />
+                                        <input type="text" class="form-control" value={cant} onChange={guardar}/>
                                         <button onClick={sumar} className="input-group-text">+</button>
                                         </div>
                                         <Button className="buttonAccent">Agregar al carrito</Button>

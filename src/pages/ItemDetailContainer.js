@@ -26,7 +26,7 @@ function ItemDetailContainer() {
             <Row>
                 <Col className="colPadding">
                     
-                     { producto.length !== 0 && <ItemDetail productoDetalle={producto} /> }  
+                     { producto.length !== 0 && <ItemDetail productoDetalle={producto} inicial="0" stock="5" /> }  
                     
                 </Col>
             </Row>
