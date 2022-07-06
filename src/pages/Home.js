@@ -6,8 +6,10 @@ import React, { useEffect, useState } from 'react';
 
 import AliceCarousel from 'react-alice-carousel';
 import ItemList from '../components/ItemList';
+import Loading from '../components/Loading';
 
 function Home() {
+    const [ loading, setLoading ] = useState(true);
     const [ catUno, setCatUno ] = useState([]);
     const [ catDos, setCatDos ] = useState([]);
     const [ catTres, setCatTres ] = useState([]);
@@ -24,6 +26,7 @@ function Home() {
                     setCatTres(data.filter( i => i.categoria === "Lámparas" ))
                     setCatCuatro(data.filter( i => i.categoria === "Muebles" ))
                     })
+                    setLoading(false)
           },3000
       )
     }, [] );
@@ -46,24 +49,28 @@ function Home() {
             <Row>
                 <Col className="colPadding">
                     <h3 className='pb-4 titulo'>Accesorios</h3>
+                    { loading === true && <Loading />}
                     <ItemList productos={catUno} />
                 </Col>
             </Row>
             <Row>
                 <Col className="colPadding">
                     <h3 className='pb-4 titulo'>Juguetes</h3>
+                    { loading === true && <Loading />}
                     <ItemList productos={catDos} />
                 </Col>
             </Row>
             <Row>
                 <Col className="colPadding">
                     <h3 className='pb-4 titulo'>Lámparas</h3>
+                    { loading === true && <Loading />}
                     <ItemList productos={catTres} />
                 </Col>
             </Row>
             <Row>
                 <Col className="colPadding">
                     <h3 className='pb-4 titulo'>Muebles</h3>
+                    { loading === true && <Loading />}
                     <ItemList productos={catCuatro} />
                 </Col>
             </Row>

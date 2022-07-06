@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 
+import Cart from "./pages/Cart";
 import Contacto from "./pages/Contacto";
 import Footer from "./components/Footer";
 import Home from './pages/Home'
@@ -23,6 +24,7 @@ function App() {
           <Route path="/producto/:productName" element={<ItemDetailContainer />}></Route>
           <Route path="/categoria/:category" element={<ItemListContainer />}></Route>
           <Route path="/vendedores" element={<ListVendedoresContainer />}></Route>
+          <Route path="/cart" element={<Cart />}></Route>
           <Route path="/notFound" element={<NotFound />} />
           <Route path="*" element={<Navigate replace to="/notFound"/>} />
         </Routes>
