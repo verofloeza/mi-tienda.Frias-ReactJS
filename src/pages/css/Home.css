@@ -12,6 +12,12 @@
     border-color: #e12257 !important ;
     font-size: x-small !important;
 }
+.buttonPrimary{
+    background-color: #1d175c !important;
+    border-color: #1d175c !important ;
+    font-size: 14px !important;
+    color: white;
+}
 .tituloPrincipal{
     color: #1d175c;
     font-weight: bold;

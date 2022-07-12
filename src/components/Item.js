@@ -20,7 +20,7 @@ function Item(props) {
                                 <p className='marca'>{props.marca}</p>
                                 <p className='precio'>${props.precio}</p>
                                 
-                                <Button className="buttonAccent mb-3">Agregar al carrito</Button>
+                                <Button className="buttonAccent mb-3">Ver producto</Button>
                             </Card.Body>
                         </Card>
                     </Link>

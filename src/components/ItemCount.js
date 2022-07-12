@@ -1,27 +1,13 @@
 import { Button, Card, Col } from 'react-bootstrap';
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+
+import CartContext from '../store/cart-context';
 
 function ItemCount(props){
-    const [ cant, setCant] = useState(1);
-    const { onAdd } = props;
-
-    const sumar = () => 
-    {
-        if( cant < props.stock ){
-        setCant(cant+1);
-        }
-    }
-
-    const quitar = () => 
-    {
-        if( cant > props.inicial ){
-        setCant(cant-1);
-        }
-    }
-    const guardar = (event) => setCant(event.target.value);
+    const { quitar, sumar, guardar, onAdd, cantCart } = useContext(CartContext);
 
     const agregarCarrito = () =>{
-        onAdd(cant)
+        onAdd(props.producto)
     }
 
     return(
@@ -31,7 +17,7 @@ function ItemCount(props){
                     <Card.Body>
                         <div class="input-group mb-3">
                             <button onClick={quitar} className="input-group-text">-</button>
-                            <input type="text" class="form-control" value={cant} onChange={guardar}/>
+                            <input type="text" class="form-control" value={cantCart} onChange={guardar}/>
                             <button onClick={sumar} className="input-group-text">+</button>
                         </div>
                         <Button className="buttonAccent" onClick={agregarCarrito}>Agregar al carrito</Button>

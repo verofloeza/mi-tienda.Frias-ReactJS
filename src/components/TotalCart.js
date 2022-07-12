@@ -6,7 +6,7 @@ import {Card, Col, Container, Row} from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import React from 'react';
 
-function ItemCart(props) {
+function ItemCart() {
   return (
                 <Col>
                         <Card className='itemCarrito'>
@@ -30,6 +30,7 @@ function ItemCart(props) {
                                     <Row>
                                         <Col className='colTotales'>
                                             <Link to="#" className="btn btn-lg buttonAccent float-end"> Finalizar compra</Link>
+                                            <Link to="/productos" className="btn btn-lg buttonPrimary float-end mt-3"> Seguir Comprando</Link>
                                         </Col>
                                     </Row>
                                 </Container>
