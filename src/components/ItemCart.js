@@ -1,21 +1,27 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/itemsCarts.css';
 
 import {Card, Col, Container, Row} from 'react-bootstrap';
 import React, { useContext } from 'react';
 
+import { AiOutlineClear } from "react-icons/ai"
 import CartContext from '../store/cart-context';
 import { FaTrashAlt } from "react-icons/fa";
 
 function ItemCart() {
-    const { itemsCarrito } = useContext(CartContext);
+    const { itemsCarrito, clearCart } = useContext(CartContext);
 
   return (
     <Col>
       <Card className='itemCarrito'>
         <Container>
           <Row>
-            <Col> </Col>
+            <Col> 
+              <span className='float-end clearCart mb-3' onClick={clearCart}>
+                <AiOutlineClear /> Limpiar carrito
+              </span>  
+            </Col>
           </Row>
           {itemsCarrito.map( i => 
           <Row>
