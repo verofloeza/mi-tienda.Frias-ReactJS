@@ -6,6 +6,7 @@
 }
 .favorito{
     float: right;
+    cursor: pointer;
 }
 .marca{
     font-weight: bold;

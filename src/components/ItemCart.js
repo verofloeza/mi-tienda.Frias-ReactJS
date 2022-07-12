@@ -10,7 +10,9 @@ import CartContext from '../store/cart-context';
 import { FaTrashAlt } from "react-icons/fa";
 
 function ItemCart() {
-    const { itemsCarrito, clearCart } = useContext(CartContext);
+    const { itemsCarrito, clearCart, deleteCart } = useContext(CartContext);
+
+    //const eliminarItem = (id) => deleteCart(id)
 
   return (
     <Col>
@@ -23,7 +25,7 @@ function ItemCart() {
               </span>  
             </Col>
           </Row>
-          {itemsCarrito.map( i => 
+          { itemsCarrito.length !== 0 && itemsCarrito.map( i => 
           <Row>
             <Col xs={3}>
               <img src={require(`../assets/images/productos/${i.item.imagen}`)} alt={i.item.nombre} className="imageThumb"/>
@@ -40,8 +42,8 @@ function ItemCart() {
               <p className='precio'>${(i.item.precio*i.quality)}</p>
             </Col>
             <Col xs={3}>
-              <span className='favorito'>
-                <FaTrashAlt/> Eliminar
+              <span className='favorito' onClick={ () => {deleteCart(i.item.id)}}>
+                <FaTrashAlt/> Eliminar 
               </span>
             </Col>
           </Row>
