@@ -25,11 +25,11 @@ function NavBar() {
               <NavLink activeClassName='active' to='#' className='dropdown-toggle' data-bs-toggle="dropdown" role="button" aria-expanded="false">
                 Productos</NavLink>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/productos">Todos</a></li>
-                  <li><a class="dropdown-item" href="/categoria/Accesorios">Accesorios</a></li>
-                  <li><a class="dropdown-item" href="/categoria/Juguetes">Juguetes</a></li>
-                  <li><a class="dropdown-item" href="/categoria/Lámparas">Lámparas</a></li>
-                  <li><a class="dropdown-item" href="/categoria/Muebles">Muebles</a></li>
+                  <li><NavLink className='dropdown-item' to='/productos'>Todos</NavLink></li>
+                  <li><NavLink className='dropdown-item' to='/categoria/Accesorios'>Accesorios</NavLink></li>
+                  <li><NavLink className='dropdown-item' to='/categoria/Juguetes'>Juguetes</NavLink></li>
+                  <li><NavLink className='dropdown-item' to='/categoria/Lámparas'>Lámparas</NavLink></li>
+                  <li><NavLink className='dropdown-item' to='/categoria/Muebles'>Muebles</NavLink></li>
                 </ul>
             </li>
             <li class="nav-item"><NavLink activeClassName='active' to='/nosotros'>Nosotros</NavLink></li>
@@ -37,12 +37,12 @@ function NavBar() {
           </ul>
         </Col>
         <Col>
-          <a src="#" className='icons'>
+          <NavLink className='icons' to='#'>
             <FontAwesomeIcon icon={faSearch} />
-          </a>
-          <a href="/vendedores" className='icons'>
+          </NavLink>
+          <NavLink className='icons' to='vendedores'>
             <FontAwesomeIcon icon={faStore} />
-          </a>
+          </NavLink>
           <CartWidget />
         </Col>
       </Row>

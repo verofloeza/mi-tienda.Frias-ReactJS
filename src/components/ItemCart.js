@@ -12,8 +12,6 @@ import { FaTrashAlt } from "react-icons/fa";
 function ItemCart() {
     const { itemsCarrito, clearCart, deleteCart } = useContext(CartContext);
 
-    //const eliminarItem = (id) => deleteCart(id)
-
   return (
     <Col>
       <Card className='itemCarrito'>
@@ -25,7 +23,7 @@ function ItemCart() {
               </span>  
             </Col>
           </Row>
-          { itemsCarrito.length !== 0 && itemsCarrito.map( i => 
+          { itemsCarrito.length !== 0 ? itemsCarrito.map( i => 
           <Row>
             <Col xs={3}>
               <img src={require(`../assets/images/productos/${i.item.imagen}`)} alt={i.item.nombre} className="imageThumb"/>
@@ -47,7 +45,16 @@ function ItemCart() {
               </span>
             </Col>
           </Row>
-          )}
+          )
+          :
+          <Row>
+            <Col> 
+              <span className='mb-3'>
+                No hay productos agregados al producto...
+              </span>  
+            </Col>
+          </Row>
+          }
         </Container>
       </Card>
     </Col>

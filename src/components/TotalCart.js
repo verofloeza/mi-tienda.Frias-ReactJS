@@ -2,11 +2,18 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Card, Col, Container, Row} from 'react-bootstrap';
+import React, { useContext } from 'react';
 
+import CartContext from '../store/cart-context';
 import { Link } from "react-router-dom";
-import React from 'react';
 
 function ItemCart() {
+    const { itemsCarrito } = useContext(CartContext);
+    
+    let suma=0;
+    itemsCarrito.map( i =>  suma = ( suma + ( parseInt(i.item.precio) * parseInt(i.quality)) )) 
+
+    
   return (
                 <Col>
                         <Card className='itemCarrito'>
@@ -22,7 +29,7 @@ function ItemCart() {
                                             <Container>
                                                 <Row>
                                                     <Col className='totalText'>Total:</Col>
-                                                    <Col className='totalPrecio'>$00000</Col>
+                                                    <Col className='totalPrecio'>$ {suma}</Col>
                                                 </Row>
                                             </Container>
                                         </Col>
