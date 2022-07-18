@@ -28,13 +28,13 @@ function ItemDetail(props) {
                 <Col md={2}>
                     <ul>
                         <li className='imagenThumbail'>
-                            <img src={require(`../assets/images/productos/${producto.imagen}`)} alt={producto.nombre} style={{width: '100%'}}/> 
+                            <img src={producto.image} alt={producto.title} style={{width: '100%'}}/> 
                         </li>
                     </ul>
                 </Col>
                 <Col md={6}>
                     <div className='imagenPrincipal'>
-                       <img src={require(`../assets/images/productos/${producto.imagen}`)} alt={producto.nombre} style={{width: '100%'}}/> 
+                       <img src={producto.image} alt={producto.title} style={{width: '100%'}}/> 
                     </div>
                 </Col>
                 <Col className='productoDescripcion'>
@@ -49,7 +49,7 @@ function ItemDetail(props) {
                         </Row>
                         <Row>
                             <Col>
-                                <h1>{producto.nombre}</h1>
+                                <h1>{producto.title}</h1>
                             </Col>
                         </Row>
                         <Row>
@@ -63,7 +63,7 @@ function ItemDetail(props) {
                             </Col>
                         </Row>
                         <Row className="justify-content-md-center">
-                            { counter === true && <ItemCount producto={producto} agregarCarrito={agregarCarrito}/>}
+                            { counter === true && <ItemCount agregarCarrito={agregarCarrito}/>}
                             { compra === true && 
                                 <Col className="mt-5">
                                     <Link to={`/cart`} className="btn btn-lg buttonAccent"> Finalizar compra</Link>

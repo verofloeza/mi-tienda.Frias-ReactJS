@@ -26,10 +26,10 @@ function ItemCart() {
           { itemsCarrito.length !== 0 ? itemsCarrito.map( i => 
           <Row>
             <Col xs={3}>
-              <img src={require(`../assets/images/productos/${i.item.imagen}`)} alt={i.item.nombre} className="imageThumb"/>
+              <img src={i.item.image} alt={i.item.title} className="imageThumb"/>
             </Col>
             <Col xs={6}>
-              <h5 className='titulo'><strong>{i.item.nombre}</strong></h5>
+              <h5 className='titulo'><strong>{i.item.title}</strong></h5>
               <p className='marca'>{i.item.marca}</p>
               <div className="mb-3 row">
                 <label for="staticEmail" className="col-4 col-form-label textUnid">Unidades</label>
@@ -40,7 +40,7 @@ function ItemCart() {
               <p className='precio'>${(i.item.precio*i.quality)}</p>
             </Col>
             <Col xs={3}>
-              <span className='favorito' onClick={ () => {deleteCart(i.item.id)}}>
+              <span className='favorito' onClick={ () => {deleteCart(i.item.title)}}>
                 <FaTrashAlt/> Eliminar 
               </span>
             </Col>

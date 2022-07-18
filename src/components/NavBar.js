@@ -28,8 +28,9 @@ function NavBar() {
                   <li><NavLink className='dropdown-item' to='/productos'>Todos</NavLink></li>
                   <li><NavLink className='dropdown-item' to='/categoria/Accesorios'>Accesorios</NavLink></li>
                   <li><NavLink className='dropdown-item' to='/categoria/Juguetes'>Juguetes</NavLink></li>
-                  <li><NavLink className='dropdown-item' to='/categoria/Lámparas'>Lámparas</NavLink></li>
+                  <li><NavLink className='dropdown-item' to='/categoria/Lamparas'>Lámparas</NavLink></li>
                   <li><NavLink className='dropdown-item' to='/categoria/Muebles'>Muebles</NavLink></li>
+                  <li><NavLink className='dropdown-item' to='/categoria/Relojes'>Relojes</NavLink></li>
                 </ul>
             </li>
             <li class="nav-item"><NavLink activeClassName='active' to='/nosotros'>Nosotros</NavLink></li>

@@ -8,16 +8,15 @@ export const CartContextProvider = ({defaultValue=[],children}) =>{
         setProductoCart([]);
     }
 
-    const isInCart = (id) => {
-        return productoCart.some((item) => item.item.id === id)
+    const isInCart = (title) => {
+        return productoCart.some((item) => item.item.title === title)
     }
 
     const onAdd = (producto, cantCart) => {
-
-        if (isInCart(producto.id)) {
+        if (isInCart(producto.title)) {
             const newCarrito = [...productoCart]
             for (const element of newCarrito) {
-                if (element.item.id === producto.id) {
+                if (element.item.title === producto.title) {
                     element.quality+=cantCart
                 }
             }
@@ -31,8 +30,8 @@ export const CartContextProvider = ({defaultValue=[],children}) =>{
            }
     }
     
-    const deleteCart = (id) =>{
-        const nuevoCart = productoCart.filter( i => i.item.id !== id);
+    const deleteCart = (title) =>{
+        const nuevoCart = productoCart.filter( i => i.item.title !== title);
         setProductoCart(nuevoCart);
     }
 

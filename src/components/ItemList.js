@@ -14,7 +14,7 @@ function ItemList(props) {
             <Row>
                 {
                     props.productos.map(
-                        i => <Item key={i.id} id={i.id} nombre={i.nombre} precio={i.precio} marca={i.marca} imagen={i.imagen}/>
+                        i => <Item key={i.id} nombre={i.title} precio={i.precio} marca={i.marca} imagen={i.image}/>
                     )
                 }
                         

@@ -14,7 +14,7 @@ function Item(props) {
                     <Link to={`/producto/${props.nombre.replace(" ", "-")}`}>
                         <Card>
                             <Card.Body>
-                                <img src={require(`../assets/images/productos/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>   
+                                <img src={props.imagen} alt={props.nombre} style={{width: '100%'}}/>   
                                 <span className='favorito'><AiOutlineHeart/></span>
                                 <h5 className='titulo'><strong>{props.nombre}</strong></h5>
                                 <p className='marca'>{props.marca}</p>
