@@ -2,10 +2,10 @@ import './css/ItemList.css';
 
 import { Container, Row } from 'react-bootstrap';
 
-import Item from './Item';
+import ItemSearch from './ItemSearch';
 import React from 'react';
 
-function ItemList(props) {
+function ItemListSearch(props) {
   
 
   return (
@@ -13,8 +13,8 @@ function ItemList(props) {
         <Container>
             <Row>
                 {
-                    props.productos.map(
-                        i => <Item key={i.title} nombre={i.title} precio={i.precio} marca={i.marca} imagen={i.image} producto={i}/>
+                    props.productosSearch.map(
+                        i => <ItemSearch key={i.title} nombre={i.title} precio={i.precio} marca={i.marca} imagen={i.image} producto={i} showSearch={props.showSearch}/>
                     )
                 }
                         
@@ -26,4 +26,4 @@ function ItemList(props) {
   );
 }
 
-export default ItemList;
+export default ItemListSearch;

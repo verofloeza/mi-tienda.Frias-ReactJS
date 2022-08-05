@@ -9,7 +9,8 @@ import React from 'react';
 
 function Vendedores(props) {
   return (
-                <Col className="col-4 pb-4">
+                <Col className="col-3 pb-3">
+                    <Link to={`/tienda/${props.nombre.replace(" ", "-")}`}>
                         <Card className="text-truncate cardVendedor">
                             <Card.Body>
                                 <img src={require(`../assets/vendedores/${props.imagen}`)} alt={props.nombre} style={{width: '100%'}}/>  
@@ -19,6 +20,7 @@ function Vendedores(props) {
                                 <p className='precio'>{props.tel}</p>
                             </Card.Body>
                         </Card>
+                    </Link>
                 </Col>       
   );
 }

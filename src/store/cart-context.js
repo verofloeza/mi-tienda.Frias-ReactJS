@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 
 export const CartContextProvider = ({defaultValue=[],children}) =>{
-    
+    const [ favoritos, setFavoritos] = useState([]);
     const [ productoCart, setProductoCart ] = useState(defaultValue);
     
     const clearCart = () => {
@@ -35,6 +35,20 @@ export const CartContextProvider = ({defaultValue=[],children}) =>{
         setProductoCart(nuevoCart);
     }
 
+    const clearFavoritos = () => {
+        setFavoritos([]);
+    }
+
+    const addFavoritos = (producto) => {
+        setFavoritos(
+            [...favoritos, {producto}]
+        )
+    }
+
+    const deleteFavoritos = (title) =>{
+        const nuevoFavoritos = favoritos.filter( i => i.producto.title !== title);
+        setFavoritos(nuevoFavoritos);
+    }
     
     return(
         <CartContext.Provider value={{
@@ -43,6 +57,10 @@ export const CartContextProvider = ({defaultValue=[],children}) =>{
             clearCart: clearCart,
             deleteCart: deleteCart,
             isInCart: isInCart,
+            addFavoritos: addFavoritos,
+            clearFavoritos: clearFavoritos,
+            deleteFavoritos: deleteFavoritos,
+            favoritos: favoritos
         }}>
             {children}
         </CartContext.Provider>
@@ -53,8 +71,12 @@ const CartContext = createContext({
     itemsCarrito: [],
     onAdd: (producto, cantidad) =>{},
     clearCart: () => {},
-    deleteCart: (id) => {},
+    deleteCart: (title) => {},
     isInCart: (id) => {},
+    addFavoritos: (producto) =>{},
+    clearFavoritos: () => {},
+    deleteFavoritos: (title) => {},
+    favoritos: []
 });
 
 export default CartContext;

@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 import Item from './Item';
 import React from 'react';
 
-function ItemList(props) {
+function ItemListFav(props) {
   
 
   return (
@@ -14,7 +14,7 @@ function ItemList(props) {
             <Row>
                 {
                     props.productos.map(
-                        i => <Item key={i.title} nombre={i.title} precio={i.precio} marca={i.marca} imagen={i.image} producto={i}/>
+                        i => <Item key={i.producto.title} nombre={i.producto.title} precio={i.producto.precio} marca={i.producto.marca} imagen={i.producto.image} producto={i.producto}/>
                     )
                 }
                         
@@ -26,4 +26,4 @@ function ItemList(props) {
   );
 }
 
-export default ItemList;
+export default ItemListFav;

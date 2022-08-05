@@ -62,6 +62,7 @@ function Home() {
             <img src={require('../assets/images/slide/slider-juguetes.jpg')} className="sliderimg"/>
             <img src={require('../assets/images/slide/slider-lamparas.jpg')} className="sliderimg"/>
             <img src={require('../assets/images/slide/slider-muebles.jpg')} className="sliderimg"/>
+            <img src={require('../assets/images/slide/slider-relojes.jpg')} className="sliderimg"/>
         </AliceCarousel>
         <Container>
             <Row>

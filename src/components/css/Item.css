@@ -5,8 +5,18 @@
     border-bottom-left-radius: 25px !important;
 }
 .favorito{
+    width: "100%";
     float: right;
     cursor: pointer;
+    z-index: 1000;
+}
+.favoritoActivo{
+    width: "100%";
+    float: right;
+    cursor: pointer;
+    font-size: 14;
+    color: #e12257;
+    z-index: 1000;
 }
 .marca{
     font-weight: bold;

@@ -3,10 +3,16 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Col, Container, Row} from 'react-bootstrap';
+import React, { useState } from 'react';
 
-import React from 'react';
+import {Form} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 function Contacto() {
+  const [ enviado, setEnviado ] = useState(false);
+  const [ nombre, setNombre ] = useState("");
+  const [ email, setEmail ] = useState("");
+  const [ telefono, setTelefono ] = useState("");
   return (
     <div className='body'>
       <Container>
@@ -21,7 +27,27 @@ function Contacto() {
                 </p>
             </Col>
             <Col>
-            <img src={require(`../assets/mapa.jpg`)} alt="mapa" className="mapa"/>
+            {
+              enviado === false 
+              ?
+              <Form onSubmit={()=>{setEnviado(true)}} style={{marginTop: 70}}>
+                    <Form.Group className="mb-3" controlId="Nombre">
+                        <Form.Label>Nombre y apellido</Form.Label>
+                        <Form.Control type="text" placeholder="Coloque su nombre y apellido" onChange={ (event) => setNombre(event.target.value) }/>
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="Email">
+                        <Form.Label>Email</Form.Label>
+                        <Form.Control type="email" placeholder="Coloque su email" onChange={ (event) => setEmail(event.target.value) } />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="Telefono">
+                        <Form.Label>Teléfono</Form.Label>
+                        <Form.Control type="text" placeholder="Coloque su teléfono" onChange={ (event) => setTelefono(event.target.value) } />
+                    </Form.Group>
+                    <Link to="#" className="btn btn-lg buttonAccent float-end"> Enviar</Link>
+                </Form>
+                :
+                <p>En la brevedad estaremos respondiendo su consulta. Muchas gracias!!</p>
+                }
             </Col>
         </Row>
       </Container>  

@@ -3,14 +3,19 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Col, Container, Row} from 'react-bootstrap';
-import { faSearch, faStore } from "@fortawesome/free-solid-svg-icons";
+import React, {useState} from 'react';
+import { faHeart, faSearch, faStore } from "@fortawesome/free-solid-svg-icons";
 
 import CartWidget from './CartWidget';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ModalSearch from './Search';
 import { NavLink } from 'react-router-dom';
-import React from 'react';
 
 function NavBar() {
+  const [showSearch, setShowSearch] = useState(false);
+
+    const handleCloseSearch = () => setShowSearch(false);
+    const handleShowSearch = () => setShowSearch(true);
   return (
     <header className='header'>
       <Container>
@@ -38,16 +43,20 @@ function NavBar() {
           </ul>
         </Col>
         <Col>
-          <NavLink className='icons' to='#'>
+          <NavLink className='icons' to='#' onClick={handleShowSearch}>
             <FontAwesomeIcon icon={faSearch} />
           </NavLink>
           <NavLink className='icons' to='vendedores'>
             <FontAwesomeIcon icon={faStore} />
           </NavLink>
+          <NavLink className='icons' to='favoritos'>
+            <FontAwesomeIcon icon={faHeart} />
+          </NavLink>
           <CartWidget />
         </Col>
       </Row>
       </Container>  
+      <ModalSearch showSearch={showSearch} handleCloseSearch={handleCloseSearch}/>
     </header>
   );
 }

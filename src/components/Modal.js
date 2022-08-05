@@ -22,26 +22,31 @@ function ModalFinalizar(props){
     const db = getFirestore();
 
     const finalizarCompra = () =>{
-        const arrayCompra = {
-            "buyer": {
-                "name" : nombre,
-                "phone" : telefono,
-                "email" : email
-            },
-            "items": itemsCarrito,
-            "date": Date.now(),
-            "total": suma
-        };
-        try {
-            addDoc(collection(db, "orders"), arrayCompra)
-            .then(({id}) => setNroOrden(id))
-            
-          } catch (e) {
-            console.error("Error adding document: ", e);
-          }
-          clearCart();
+        if(nombre !== "" || telefono !== "" || email !== ""){
+            const arrayCompra = {
+                "buyer": {
+                    "name" : nombre,
+                    "phone" : telefono,
+                    "email" : email
+                },
+                "items": itemsCarrito,
+                "date": Date.now(),
+                "total": suma
+            };
+            try {
+                addDoc(collection(db, "orders"), arrayCompra)
+                .then(({id}) => setNroOrden(id))
+                
+            } catch (e) {
+                console.error("Error adding document: ", e);
+            }
+            clearCart();
 
-        setDatos(!datos);
+            setDatos(!datos);
+        }else{
+            alert("Debe completar todos los datos")
+        }
+        
     }
 
     return(
