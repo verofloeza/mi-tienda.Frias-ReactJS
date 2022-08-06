@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a58b698.css",
+    "main.js": "/static/js/main.56f73180.js",
+    "static/js/787.500bbef2.chunk.js": "/static/js/787.500bbef2.chunk.js",
+    "static/media/nosotros.png": "/static/media/nosotros.a4327111ba82f609bde6.png",
+    "static/media/slider-juguetes.jpg": "/static/media/slider-juguetes.5129e083636ebc9eecae.jpg",
+    "static/media/slider-accesorios.jpg": "/static/media/slider-accesorios.4a5ffd33ed2f726c59c7.jpg",
+    "static/media/slider-relojes.jpg": "/static/media/slider-relojes.cbce133051579695e9be.jpg",
+    "static/media/slider-lamparas.jpg": "/static/media/slider-lamparas.ced91afeba91a97313d5.jpg",
+    "static/media/slider-muebles.jpg": "/static/media/slider-muebles.65c2434e6f848f422f32.jpg",
+    "static/media/Spinner.gif": "/static/media/Spinner.52f4e7919910f6535a9f.gif",
+    "static/media/404.png": "/static/media/404.27dfa202612c5427a699.png",
+    "static/media/WereOpen.jpeg": "/static/media/WereOpen.50459516bb8b051a3a94.jpeg",
+    "static/media/Naran.jpeg": "/static/media/Naran.c51ebfe7ea3487dc56df.jpeg",
+    "static/media/Cozumiel.jpeg": "/static/media/Cozumiel.a7de41b2f92240dc10c9.jpeg",
+    "static/media/GirlPower.jpeg": "/static/media/GirlPower.25144a714a9bcd266ac5.jpeg",
+    "static/media/Posamar.jpeg": "/static/media/Posamar.3b3cb151622f6f8cbdd0.jpeg",
+    "static/media/Beauty.jpeg": "/static/media/Beauty.0201c69c20f8bf0b0a92.jpeg",
+    "static/media/logo-mitienda-300px.png": "/static/media/logo-mitienda-300px.74e4cff82d692a9a280f.png",
+    "index.html": "/index.html",
+    "main.9a58b698.css.map": "/static/css/main.9a58b698.css.map",
+    "main.56f73180.js.map": "/static/js/main.56f73180.js.map",
+    "787.500bbef2.chunk.js.map": "/static/js/787.500bbef2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a58b698.css",
+    "static/js/main.56f73180.js"
+  ]
+}
