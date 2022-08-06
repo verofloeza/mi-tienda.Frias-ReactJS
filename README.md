@@ -1,4 +1,4 @@
-# Proyecto "Mi tienda"  en Ract JS
+# Proyecto "Mi tienda"  en React JS
 
 Este ecommerce, representa al front de un proyecto, con los vendedores suben sus productos. Los clientes pueden realizar la compra de sus productos y luego arreglan con el cliente la forma de envío.
 
